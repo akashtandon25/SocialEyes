@@ -28,6 +28,158 @@
   color: #61dafb;
 }
 
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d6efd;
+  height: 6em;
+  font-size: 1.2em;
+  padding: 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.NavbarText {
+  flex: 1;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+}
+
+.NavbarText:hover {
+  color: #c4e3f3;
+}
+
+.NavbarUserInfo {
+  display: flex;
+  align-items: center;
+}
+
+.NavbarImage {
+  border-radius: 50%;
+  width: 4.5em;
+  height: 4.5em;
+  margin-right: 1em;
+}
+
+.NavbarUserDisplay {
+  color: white;
+  margin-right: 1em;
+  font-weight: bold;
+}
+
+.NavbarUserDisplay:hover {
+  color: #c4e3f3;
+}
+
+.NavbarUserSignOut {
+  background-color: white;
+  border: none;
+  color: #0d6efd;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.NavbarUserSignOut:hover {
+  background-color: #c4e3f3;
+}
+
+.NavbarLoggedIn{
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+}
+
+.PostForm{
+  display:flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.PostFormCard{
+  width: 28em;
+  height: 20em;
+  border-radius: 1.5em;
+  background-color: #0d6efd;
+  justify-content: center;
+  padding: 1.5em;
+  align-items: center;
+}
+
+.PostFormInput{
+  border-radius: 1em;
+  width: 25em;
+  height: 3em;
+  justify-content: center;
+}
+
+.PostFormSubmit{
+  border-radius: 1em;
+  width: 10em;
+  height: 3em;
+}
+
+.PostFormSubmit:hover{
+  cursor: grab;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: lightblue;
+  color: #333;
+  font-size: 1.2em;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  height: 250px;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin-top: 0;
+  color: red;
+}
+
+.card-description {
+  font-size: 1.0em;
+  padding-left: 3px;
+  text-align: left;
+}
+
+.card-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.card-profile-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.card-profile-username {
+  font-size: 0.6em;
+  color: darkgreen;
+  margin-bottom: 0em;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
